@@ -1,0 +1,65 @@
+﻿#bmenu2 ul
+{
+	list-style:none;
+    height: 39px;
+}
+#bmenu2 ul li 
+{
+ background-color:Red;
+ border:solid 1px White;
+ height:30px;
+ width:200px;
+ text-align:center;
+ line-height:30px;
+ float:left; 
+ position:relative;
+}
+
+
+#bmenu2 ul li a
+{
+	text-decoration:none;
+	color:Black;
+	display:Block;
+    height: 34px;
+    width: 207px;
+}
+#bmenu2 ul li a:hover
+{
+   
+	background-color:White;
+	color:Red;
+	
+	}
+	
+#bmenu2 ul li ul li:hover
+{
+    border-left-width:thick;
+    border-left-color:Green;
+	background-color:White;
+	color:Red;
+	
+}
+	
+	#bmenu2 ul ul
+	{
+		position:absolute;
+		display:none;
+	}
+
+#bmenu2 ul li > ul li
+{
+ background-color:White;
+ border:solid 1px White;
+ color:Red;
+ 
+ 
+}
+	
+
+	
+#bmenu2 ul li:hover > ul
+{
+	display:block;
+	
+}
