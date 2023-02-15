@@ -1,0 +1,186 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .img:hover
+        {
+       cursor:pointer;
+       height:auto;
+       width:auto;
+       transform:scale(1.1);
+       -ms-transform:scale(1.1);
+       -moz-transform:scale(1.1);
+       webkit-transform:scale(1.1);
+       -o-transform:scale(1.1);
+       box-shadow:3px 3px 3px #660033;
+             
+        }
+        .style1
+        {
+            width: 107%;
+            height: 533px;
+        }
+        .style2
+        {
+            width: 284px;
+            height: 545px;
+        }
+        .style3
+        {
+            width: 910px;
+            height: 545px;
+        }
+        .style4
+        {
+            width: 105%;
+            height: 60px;
+        }
+        .style5
+        {
+            height: 130px;
+            width: 1402px;
+        }
+        .style6
+        {
+            width: 100%;i
+            height: 138px;
+        }
+        .style7
+        {
+            height: 545px;
+        }
+        .style8
+        {
+            height: 42px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+<link rel="stylesheet" type="text/css" href="js-image-slider.css" />
+<script type="text/javascript" src="js-image-slider.js"></script>
+<link rel="stylesheet" type="text/css" href="StyleSheet2.css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <br />
+    
+        <table class="style6" 
+            style="border-bottom-style: solid; border-bottom-width: 5px; border-bottom-color: #000000">
+            <tr>
+                <td align="center" class="style5" bgcolor="White">
+
+                    <asp:Image ID="Image2" runat="server" Height="130px" ImageUrl="~/img/LOGO.png" 
+                        Width="1283px" />
+                </td>
+            </tr>
+        </table>
+    <div>
+    
+
+        <table class="style1" 
+       
+            <tr>
+                <td class="style2" style="border-right-style: solid; border-right-width: 5px" 
+                    bgcolor="White">
+                  <a href="EAST.aspx">  
+                    <asp:Image ID="Image3" runat="server" Height="267px" 
+                        ImageUrl="~/img/East-India.jpg" Width="280px" />
+                        </a>
+                        <br />
+                    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                    <a href="WEST.aspx"> 
+                    <asp:Image ID="Image5" runat="server" Height="267px" 
+                        ImageUrl="~/img/g.jpg" Width="280px" />
+                        </a>
+                </td>
+                <td class="style3" valign="top" bgcolor="White">
+
+                    <table class="style4">
+                        <tr>
+                            <td bgcolor="White">
+                                <div id="menu" >
+                                <ul>
+                                <li>
+                                <a href="Default.aspx">
+                                HOME
+                                </a>
+                                </li>
+
+                                 <li>
+                                <a href="aboutus.aspx">
+                                ABOUT US
+                                </a></li>
+                             
+                                 <li>
+                              <a href="CONTACT_US.aspx">
+                               CONTACT US
+                                </a>
+                                </li>
+                                    <li>
+                                <a href="terms-conditions.aspx">
+                               TERMS 
+                                </a>
+                                </li>
+                                    
+                                  <li>
+                                <a href="reviewpage1.aspx">REVIEW</a>
+                            
+                                </li>
+                                </ul>
+                               
+                                </div>
+                                
+                                
+                                
+                                </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="White" class="style8">
+                               <div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div> &nbsp;
+    </td>
+                        </tr>
+                    </table>
+
+                
+                 
+                    &nbsp;</td>
+                <td style="border-left-style: solid; border-left-width: 5px; border-left-color: #000000" 
+                    bgcolor="White" class="style7">
+                    <a href="NORTH.aspx"> 
+                    <asp:Image ID="Image6" runat="server" Height="267px" 
+                        ImageUrl="~/img/Delhi img.jpg" style="margin-left: 0px" 
+                        Width="280px" />
+                        </a>
+                        <br />
+                    <br />
+                    <br />
+                    <a href="SOUTH.aspx"> 
+                    <asp:Image ID="Image7" runat="server" Height="267px" 
+                        ImageUrl="~/img/south-img.jpg" Width="280px" />
+                        </a>
+                </td>
+            </tr>
+        </table>
+    
+
+    </div> 
+    </div>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,230 @@
+﻿body 
+{
+	width:1506px;
+    height: 743px;
+}
+
+/*{
+    padding: 0px;
+    font-family: Lucida Calligraphy;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 16px;
+}*/
+
+
+
+
+#menu ul
+{
+	list-style:none;
+    width: 865px;
+    height: 39px;
+}
+#menu ul li 
+{
+ background-color:	#1E90FF;
+
+
+ border:solid 1px white;
+ height:35px;
+ width:153px;
+ text-align:center;
+ line-height:35px;
+ float:left; 
+}
+
+#menu ul li a
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+    width: 154px;
+    height: 37px;
+  
+    }
+#menu ul li a:hover
+{
+	background-color:red
+;
+	color:white;
+	}
+	
+	
+	#menu2 ul
+{
+	list-style:none;
+    width: 963px;
+}
+#menu2 ul li 
+{
+ background-color:#f7941d;
+ border:solid 1px White;
+ height:35px;
+ width:158px;
+ text-align:center;
+ line-height:35px;
+ float:left; 
+ position:relative;
+}
+
+
+#menu2 ul li a
+{
+	text-decoration:none;
+	color:white;
+	display:Block;
+}
+#menu2 ul li a:hover
+{
+	background-color:red;
+	color:white;
+	}
+	
+	#menu2 ul ul
+	{
+		position:relative;
+		display:none;
+	}
+	
+#menu2 ul li > ul li
+{
+ background-color:Red;
+ border:solid 1px White;
+ color:White;
+}
+#menu2 ul li:hover > ul
+{
+	display:block;
+}
+.Button {
+    background-color: #1E90FF;
+    
+    border-bottom-color:black;
+    text-align: center;
+    font: bold;
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    border-radius: 13px;
+    padding: 5px;
+    /*border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+        */
+}
+.Button:hover
+ {
+      background-color: red; 
+        color: white;
+     
+     }
+.TextBox1 {
+    
+    border-color:black;
+    border-radius: 12px;
+    padding: 2px;
+    border-bottom-style:solid;
+   
+       
+}
+
+.Button1 {
+    background-color: red;
+    
+
+    border-color:black;
+    text-align: center;
+    color: white;
+    border-radius: 13px;
+    padding: 5px;
+
+}
+.Button1:hover
+ {
+      background-color: #1E90FF; 
+  color: white;
+     
+     }
+     
+     
+     
+     
+     
+#menu11 ul
+{
+	list-style:none;
+}
+#menu11 ul li 
+{
+ background-color:black;
+ cursor:progress;
+ border:solid 1px white;
+ border-color:white;
+ height:40px;
+ width:330px;
+ text-align:center;
+ line-height:35px;
+ float:inherit;
+  
+}
+
+#menu11 ul li a
+{
+	text-decoration:none;
+	color:White;
+	display:block;
+    width: 329px;
+    height: 38px;
+}
+#menu11 ul li a:hover
+{
+	background-color:white;
+	color:black;
+	}
+
+
+
+#menu12 ul
+{
+	list-style:none;
+}
+#menu12 ul li 
+{
+ background-color:#1E90FF;
+ border:solid 1px white;
+ height:40px;
+ width:330px;
+ text-align:center;
+ line-height:35px;
+ float:inherit;
+  
+}
+
+#menu12 ul li a
+{
+	text-decoration:none;
+	color:White;
+	display:block;
+    width: 329px;
+    height: 40px;
+}
+#menu12 ul li a:hover
+{
+	background-color:#f44336;
+	color:white;
+	}
+
+ #footer
+{
+    width:1450px;
+    margin:0 auto;
+    height:30px;
+    border-bottom: solid 2px #11B300;
+ text-align:center;
+ font-size:15px;
+    background:#fff;
+}
+
